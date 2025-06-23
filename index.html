@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankur Rana - Visionary Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="nav-logo"><i class="fas fa-user-astronaut"></i></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="universe.html" class="nav-link">Universe</a></li>
+                <li class="nav-item"><a href="skills.html" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="passions.html" class="nav-link">Passions</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Quantum Field Background -->
+    <div class="quantum-field" id="quantumField"></div>
+    
+    <!-- Cosmic Cursor -->
+    <div class="cosmic-cursor" id="cosmicCursor"></div>
+    
+    <!-- Philosophy Popup -->
+    <div class="philosophy-popup" id="philosophyPopup">
+        <p id="philosophyText"></p>
+        <p style="text-align: center; margin-top: 1rem; color: rgba(139, 92, 246, 0.8);">- Ankur's Mind Palace</p>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="galaxy-particles" id="galaxyParticles"></div>
+        
+        <!-- Neural Network SVG -->
+        <svg class="neural-network" viewBox="0 0 100 100">
+            <defs>
+                <linearGradient id="neuralGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#8B5CF6" />
+                    <stop offset="100%" stop-color="#EC4899" />
+                </linearGradient>
+            </defs>
+            <!-- Neural nodes and connections -->
+            <circle cx="20" cy="30" r="2" fill="url(#neuralGradient)" opacity="0.6">
+                <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+            </circle>
+            <circle cx="45" cy="30" r="2" fill="url(#neuralGradient)" opacity="0.6">
+                <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
+            </circle>
+            <circle cx="70" cy="30" r="2" fill="url(#neuralGradient)" opacity="0.6">
+                <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+            </circle>
+            <!-- Connection lines -->
+            <line x1="20" y1="30" x2="45" y2="30" stroke="url(#neuralGradient)" stroke-width="0.5" opacity="0.4">
+                <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite"/>
+            </line>
+            <line x1="45" y1="30" x2="70" y2="30" stroke="url(#neuralGradient)" stroke-width="0.5" opacity="0.4">
+                <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.5s" repeatCount="indefinite"/>
+            </line>
+        </svg>
+        
+        <div class="hero-content">
+            
+            <h1 class="hero-title">ANKUR RANA</h1>
+            
+            <div class="hero-subtitle">
+                <span>Visionary</span>
+                <span style="color: var(--primary-purple);">•</span>
+                <span>Tech Explorer</span>
+                <span style="color: var(--primary-pink);">•</span>
+                <span>Deep Thinker</span>
+            </div>
+            
+            <div class="current-skill">
+                <span>Currently mastering: </span>
+                <span class="skill-highlight" id="currentSkill">JavaScript</span>
+            </div>
+            
+            <a href="universe.html" class="cta-button">
+                <span>Explore My Universe</span>
+            </a>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="floating-element"><i class="fas fa-code"></i></div>
+        <div class="floating-element"><i class="fas fa-brain"></i></div>
+        <div class="floating-element"><i class="fas fa-atom"></i></div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-heart">
+            <span>Crafted with</span>
+            <div class="heart-pulse"><i class="fas fa-heart heart-icon"></i></div>
+            <span>in the digital cosmos</span>
+        </div>
+        <p>&copy; 2024 Ankur Rana. All rights reserved.</p>
+    </footer>
+    
+    <!-- Scroll to top button -->
+    <button class="scroll-to-top" id="scrollToTopBtn" onclick="scrollToSection('hero')">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 

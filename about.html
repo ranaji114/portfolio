@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankur Rana - About</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="nav-logo"><i class="fas fa-user-astronaut"></i></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="universe.html" class="nav-link">Universe</a></li>
+                <li class="nav-item"><a href="skills.html" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="passions.html" class="nav-link">Passions</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Quantum Field Background -->
+    <div class="quantum-field" id="quantumField"></div>
+    
+    <!-- Cosmic Cursor -->
+    <div class="cosmic-cursor" id="cosmicCursor"></div>
+    
+    <!-- Philosophy Popup -->
+    <div class="philosophy-popup" id="philosophyPopup">
+        <p id="philosophyText"></p>
+        <p style="text-align: center; margin-top: 1rem; color: rgba(139, 92, 246, 0.8);">- Ankur's Mind Palace</p>
+    </div>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container about-content">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-card">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I'm a perpetual student of technology and the universe. My journey began with a simple "Hello, World!" and has since spiraled into a deep fascination with creating digital experiences that are not only functional but also beautiful and thought-provoking.</p>
+                        <p>I believe that code is a canvas, and developers are artists. Every line of code is a brushstroke that contributes to a larger masterpiece. My philosophy is to blend the logical with the aesthetic, creating software that resonates with users on a deeper level.</p>
+                        <p>When I'm not coding, you can find me gazing at the stars, lost in a sci-fi novel, or composing a new piece of music. Let's create something extraordinary together.</p>
+                    </div>
+                    <div class="about-avatar">
+                        <div class="about-avatar-circle">
+                            <div class="about-avatar-inner">
+                                <i class="fas fa-infinity"></i>
+                                <div class="shimmer"></div>
+                            </div>
+                        </div>
+                        <div class="trait-bubble">Curious</div>
+                        <div class="trait-bubble">Creative</div>
+                        <div class="trait-bubble">Driven</div>
+                        <div class="trait-bubble">Analytical</div>
+                        <div class="trait-bubble">Dreamer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-heart">
+            <span>Crafted with</span>
+            <div class="heart-pulse"><i class="fas fa-heart heart-icon"></i></div>
+            <span>in the digital cosmos</span>
+        </div>
+        <p>&copy; 2024 Ankur Rana. All rights reserved.</p>
+    </footer>
+    
+    <!-- Scroll to top button -->
+    <button class="scroll-to-top" id="scrollToTopBtn" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 

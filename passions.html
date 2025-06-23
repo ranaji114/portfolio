@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankur Rana - Passions</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="nav-logo"><i class="fas fa-user-astronaut"></i></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="universe.html" class="nav-link">Universe</a></li>
+                <li class="nav-item"><a href="skills.html" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="passions.html" class="nav-link">Passions</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Quantum Field Background -->
+    <div class="quantum-field" id="quantumField"></div>
+    
+    <!-- Cosmic Cursor -->
+    <div class="cosmic-cursor" id="cosmicCursor"></div>
+    
+    <!-- Philosophy Popup -->
+    <div class="philosophy-popup" id="philosophyPopup">
+        <p id="philosophyText"></p>
+        <p style="text-align: center; margin-top: 1rem; color: rgba(139, 92, 246, 0.8);">- Ankur's Mind Palace</p>
+    </div>
+
+    <!-- Passions Section -->
+    <section class="section" id="passions">
+        <div class="container">
+            <h2 class="section-title">My Passions</h2>
+            <div class="passions-grid">
+                <div class="passion-card">
+                    <div class="passion-icon" style="background: linear-gradient(135deg, #F59E0B, #FBBF24);"><i class="fas fa-atom"></i></div>
+                    <h3>Theoretical Physics</h3>
+                    <p>Exploring the fundamental laws of the universe, from quantum mechanics to cosmology.</p>
+                </div>
+                <div class="passion-card">
+                    <div class="passion-icon" style="background: linear-gradient(135deg, #10B981, #6EE7B7);"><i class="fas fa-music"></i></div>
+                    <h3>Music Production</h3>
+                    <p>Creating electronic music and exploring sound design to express ideas and emotions.</p>
+                </div>
+                <div class="passion-card">
+                    <div class="passion-icon" style="background: linear-gradient(135deg, #3B82F6, #60A5FA);"><i class="fas fa-book-open"></i></div>
+                    <h3>Philosophy</h3>
+                    <p>Pondering questions of existence, consciousness, and the nature of reality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-heart">
+            <span>Crafted with</span>
+            <div class="heart-pulse"><i class="fas fa-heart heart-icon"></i></div>
+            <span>in the digital cosmos</span>
+        </div>
+        <p>&copy; 2024 Ankur Rana. All rights reserved.</p>
+    </footer>
+    
+    <!-- Scroll to top button -->
+    <button class="scroll-to-top" id="scrollToTopBtn" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 
