@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-background text-primary antialiased selection:bg-white/20;
+    font-feature-settings: "cv11", "ss01";
+    line-height: 1.6;
+    /* Increased line height for readability */
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply tracking-tight font-medium;
+    line-height: 1.1;
+    /* Tighter headings */
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .space-y-relaxed>*+* {
+    margin-top: 2rem;
+  }
+
+  .space-y-loose>*+* {
+    margin-top: 4rem;
+  }
+}
