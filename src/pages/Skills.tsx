@@ -44,18 +44,18 @@ export const Skills = () => {
                 variants={containerVariants}
                 initial="hidden"
                 animate="visible"
-                className="space-y-12 py-8"
+                className="space-y-8 sm:space-y-12 py-6 sm:py-8"
             >
-                <header className="space-y-4">
-                    <motion.h1 variants={itemVariants} className="text-3xl font-bold text-primary">Technical Reality</motion.h1>
-                    <motion.p variants={itemVariants} className="text-secondary max-w-xl">
+                <header className="space-y-3 sm:space-y-4">
+                    <motion.h1 variants={itemVariants} className="text-2xl sm:text-3xl font-bold text-primary">Technical Reality</motion.h1>
+                    <motion.p variants={itemVariants} className="text-secondary max-w-xl text-sm sm:text-base">
                         I believe in being honest about what I know and what I am actively working to understand. No inflated percentages.
                     </motion.p>
                 </header>
 
-                <div className="grid gap-12 sm:grid-cols-2">
+                <div className="grid gap-8 sm:gap-12 grid-cols-1 sm:grid-cols-2">
                     <section className="space-y-6">
-                        <motion.h2 variants={itemVariants} className="text-xl font-semibold text-white border-b border-border pb-4">
+                        <motion.h2 variants={itemVariants} className="text-xl font-semibold text-primary border-b border-border pb-4">
                             Comfortable With
                         </motion.h2>
                         <ul className="flex flex-col gap-3">
@@ -69,7 +69,7 @@ export const Skills = () => {
                     </section>
 
                     <section className="space-y-6">
-                        <motion.h2 variants={itemVariants} className="text-xl font-semibold text-white border-b border-border pb-4">
+                        <motion.h2 variants={itemVariants} className="text-xl font-semibold text-primary border-b border-border pb-4">
                             Currently Learning
                         </motion.h2>
                         <ul className="flex flex-col gap-3">

@@ -4,11 +4,11 @@
 
 @layer base {
   :root {
-    color-scheme: dark;
+    color-scheme: light;
   }
 
   body {
-    @apply bg-background text-primary antialiased selection:bg-white/20;
+    @apply bg-background text-primary antialiased selection:bg-black/10;
     font-feature-settings: "cv11", "ss01";
     line-height: 1.6;
     /* Increased line height for readability */

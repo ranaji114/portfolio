@@ -47,8 +47,8 @@ export const About = () => {
                 </motion.section>
 
                 {/* Section 2 */}
-                <motion.section variants={itemVariants} className="space-y-4 border-l-2 border-neutral-800 pl-6">
-                    <h2 className="text-xl font-medium text-white">Why I Build</h2>
+                <motion.section variants={itemVariants} className="space-y-4 border-l-2 border-primary pl-6">
+                    <h2 className="text-xl font-medium text-primary">Why I Build</h2>
                     <p className="text-secondary leading-relaxed">
                         Software is an exercise in logic and discipline. I build because I enjoy the rigor of optimization and the satisfaction of a type-safe codebase. I want to create tools that are reliable, not just functional.
                     </p>
@@ -56,7 +56,7 @@ export const About = () => {
 
                 {/* Section 3 */}
                 <motion.section variants={itemVariants} className="space-y-4">
-                    <h2 className="text-xl font-medium text-white">The Goal</h2>
+                    <h2 className="text-xl font-medium text-primary">The Goal</h2>
                     <p className="text-secondary leading-relaxed">
                         I am currently a student, but my output is professional. I am seeking a role that pushes me into the deep end of backend complexity and frontend performance.
                     </p>
